@@ -18,3 +18,68 @@ body {
    */
   background-image: url('./images/bg-pattern.png');
 }
+
+ul {
+  list-style: none;
+}
+
+.query-field {
+  margin-left: 250px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.info-container {
+  margin-right: 30px;
+}
+
+.languages {
+  margin: 0;
+}
+
+.name {
+  font-size: 32px;
+  margin-left: 200px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+}
+
+.flag {
+  max-width: 400px;
+}
+
+.pnotify {
+  display: none;
+}
+
+.pnotify-text {
+  max-height: 100px;
+  overflow-y: none;
+}
+
+.pnotify-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pnotify-sticker {
+  display: none;
+}
+
+.pnotify-closer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
