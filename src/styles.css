@@ -58,24 +58,11 @@ ul {
   max-width: 400px;
 }
 
-.pnotify {
-  display: none;
-}
-
-.pnotify-text {
-  max-height: 100px;
-  overflow-y: none;
-}
-
 .pnotify-container {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-}
-
-.pnotify-sticker {
-  display: none;
 }
 
 .pnotify-closer {
